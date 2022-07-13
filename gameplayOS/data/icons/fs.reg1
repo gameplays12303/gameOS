@@ -1,0 +1,18 @@
+{
+  {
+    "/gameplayOS/data/icons/fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "/gameplayOS/data/icons/windows.img",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}

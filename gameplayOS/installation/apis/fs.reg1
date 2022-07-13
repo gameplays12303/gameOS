@@ -1,0 +1,26 @@
+{
+  {
+    "before",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "after",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}

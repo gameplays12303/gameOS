@@ -1,0 +1,5 @@
+{
+    {"installation",{false,false,"installer"}},
+    {"data",{false,false,"installer"}},
+    {"fs.reg1",{false,false,"installer"}},
+}

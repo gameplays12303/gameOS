@@ -1,0 +1,18 @@
+{
+  {
+    "fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "wendell",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}

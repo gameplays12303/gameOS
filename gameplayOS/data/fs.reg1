@@ -1,0 +1,26 @@
+{
+  {
+    "/gameplayOS/data/fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "/gameplayOS/data/perms.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "/gameplayOS/data/icons",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}

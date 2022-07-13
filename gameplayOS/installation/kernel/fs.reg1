@@ -1,0 +1,18 @@
+{
+  {
+    "kernel.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}

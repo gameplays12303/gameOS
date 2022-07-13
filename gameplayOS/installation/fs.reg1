@@ -1,0 +1,34 @@
+{
+  {
+    "/gameplaysv1.1/installation/apis",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "/gameplaysv1.1/installation/fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "/gameplaysv1.1/installation/kernel",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "/gameplaysv1.1/installation/usersENV",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}

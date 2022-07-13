@@ -1,0 +1,26 @@
+{
+  {
+    "autoload.settings",
+    {
+      true,
+      false,
+      "installer",
+    },
+  },
+  {
+    "fs.reg1",
+    {
+      true,
+      false,
+      "installer",
+    },
+  },
+  {
+    "img.jepg",
+    {
+      true,
+      false,
+      "installer",
+    },
+  },
+}

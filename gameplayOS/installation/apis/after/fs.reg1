@@ -1,0 +1,34 @@
+{
+  {
+    "enycript.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "fm.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "usersman.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}
