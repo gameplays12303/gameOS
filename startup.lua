@@ -7,8 +7,13 @@ term.setCursorPos(1,1)
 local list1 = fs.list("")
 local isOs = {}
 --declares functions
-
-function menu(table,promt)
+if not fs.exists("boot/autoload.settings")
+then
+    local handle = fs.open("boot/autoload.settings","w")
+    handle:write("")
+    handle.close()
+end
+function menu(Table,promt)
 local running = true 
 local count = 0
 local sel = 1
@@ -17,8 +22,8 @@ while running do
     term.setCursorPos(1,1)
     term.setTextColor(colors.white)
         print(promt)
-        for i,v in pairs(table) do 
-            print("["..i.."]",table[i])
+        for i,v in pairs(Table) do 
+            print("["..i.."]",Table[i])
             count = i
         end
     print("selected option","["..sel.."]")
