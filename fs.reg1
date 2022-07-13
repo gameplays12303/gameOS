@@ -8,25 +8,9 @@
     },
   },
   {
-    ".vscode",
-    {
-      false,
-      false,
-      "installer",
-    },
-  },
-  {
     "boot",
     {
       true,
-      false,
-      "installer",
-    },
-  },
-  {
-    "files.lua",
-    {
-      false,
       false,
       "installer",
     },
@@ -64,14 +48,6 @@
     },
   },
   {
-    "table.doc",
-    {
-      true,
-      false,
-      "installer",
-    },
-  },
-  {
     "users",
     {
       false,
@@ -81,14 +57,6 @@
   },
   {
     "programs",
-    {
-      false,
-      false,
-      "wendell",
-    },
-  },
-  {
-    "GameOS.lua",
     {
       false,
       false,
