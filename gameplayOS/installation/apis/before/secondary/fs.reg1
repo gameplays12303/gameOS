@@ -1,0 +1,10 @@
+{
+  {
+    "fs.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+}

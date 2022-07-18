@@ -1,6 +1,14 @@
 {
   {
-    "apis",
+    "enycript.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "fm.lua",
     {
       false,
       false,
@@ -16,15 +24,7 @@
     },
   },
   {
-    "kernel",
-    {
-      false,
-      false,
-      "installer",
-    },
-  },
-  {
-    "usersENV",
+    "grapics.lua",
     {
       false,
       false,

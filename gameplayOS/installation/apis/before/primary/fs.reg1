@@ -1,6 +1,6 @@
 {
   {
-    "apis",
+    "database.lua",
     {
       false,
       false,
@@ -16,7 +16,7 @@
     },
   },
   {
-    "kernel",
+    "screen.lua",
     {
       false,
       false,
@@ -24,7 +24,7 @@
     },
   },
   {
-    "usersENV",
+    "systemlog.lua",
     {
       false,
       false,

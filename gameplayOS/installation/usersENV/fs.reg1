@@ -1,6 +1,22 @@
 {
   {
+    "Perms.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
     "desktop.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "fileExplorer.lua",
     {
       false,
       false,
@@ -24,7 +40,31 @@
     },
   },
   {
-    "fileExplorer.lua",
+    "shell.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "shutdown.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "reboot.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    ".temp.desktop",
     {
       false,
       false,

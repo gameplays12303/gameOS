@@ -16,14 +16,6 @@
     },
   },
   {
-    "grapics.lua",
-    {
-      false,
-      false,
-      "installer",
-    },
-  },
-  {
     "screen.lua",
     {
       false,
@@ -33,6 +25,22 @@
   },
   {
     "systemlog.lua",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "primary",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "secondary",
     {
       false,
       false,

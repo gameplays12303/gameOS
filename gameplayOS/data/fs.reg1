@@ -23,4 +23,12 @@
       "installer",
     },
   },
+  {
+    "Perms.reg1",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
 }

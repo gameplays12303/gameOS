@@ -1,0 +1,10 @@
+{
+    {
+        "winlogon.lua", 
+        {"fs","sys","userman","kernel"}
+    },
+    {
+        "desktop.lua", 
+        {"fs","sys"}
+    }
+}

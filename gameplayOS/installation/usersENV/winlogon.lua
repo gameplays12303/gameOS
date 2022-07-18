@@ -9,6 +9,41 @@ for i,v in pairs(users) do
         table.remove(users, i)
     end
 end
+local function menu(Table,promt)
+    local running = true 
+    local count = 0
+    local sel = 1
+    while running do  
+        term.clear()
+        term.setCursorPos(1,1)
+        term.setTextColor(colors.white)
+            print(promt)
+            for i,v in pairs(Table) do 
+                print("["..i.."]",Table[i])
+                count = i
+            end
+        print("selected option","["..sel.."]")
+        local event, key = os.pullEvent("key")
+            if key == keys.up
+                then 
+                    if sel > 1 
+                        then
+                            sel = sel - 1
+                    end
+                end
+            if key == keys.down
+            then 
+                if sel < count 
+                    then 
+                 sel = sel + 1 
+                end
+            end
+            if key == keys.enter
+                then
+                return sel
+            end
+        end
+    end
 local x,y = term.getSize()
 if #users == 0
 then
@@ -44,9 +79,9 @@ screen.clearscreen(x/2-17,y/2-2,colors.blue,colors.white)
 if kernel.current_user() == "installer"
 then
     local a = true
-local username = ""
-local password = ""
-local running = true
+    local username = ""
+    local password = ""
+    local running = true
     while a do 
         screen.clear((x/2)-12,(y/2)-2)
         print("username")
@@ -81,6 +116,8 @@ local running = true
             end
         end
     end
+else
+    error("all ready log on")
 end
 screen.clearscreen(1,1,colors.black,colors.white)
 os.pullEvent = pull

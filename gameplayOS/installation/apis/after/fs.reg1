@@ -1,21 +1,5 @@
 {
   {
-    "enycript.lua",
-    {
-      false,
-      false,
-      "installer",
-    },
-  },
-  {
-    "fm.lua",
-    {
-      false,
-      false,
-      "installer",
-    },
-  },
-  {
     "fs.reg1",
     {
       false,
@@ -24,7 +8,15 @@
     },
   },
   {
-    "usersman.lua",
+    "primary",
+    {
+      false,
+      false,
+      "installer",
+    },
+  },
+  {
+    "secondary",
     {
       false,
       false,

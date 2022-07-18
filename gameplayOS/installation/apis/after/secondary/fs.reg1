@@ -1,13 +1,5 @@
 {
   {
-    "apis",
-    {
-      false,
-      false,
-      "installer",
-    },
-  },
-  {
     "fs.reg1",
     {
       false,
@@ -16,7 +8,7 @@
     },
   },
   {
-    "kernel",
+    "input.lua",
     {
       false,
       false,
@@ -24,7 +16,7 @@
     },
   },
   {
-    "usersENV",
+    "usersman.lua",
     {
       false,
       false,
