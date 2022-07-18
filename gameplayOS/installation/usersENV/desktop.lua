@@ -9,7 +9,7 @@ function run(programpath)
 end
 local shellB = button.create("shell")
 shellB.setPos(1,1)
-shellB.onClick(function () multishell.launch({ ["shell"] = shell,["multishell"] = multishell, ["require"] = require, },"rom/programs/shell.lua")end)
+shellB.onClick(function () multishell.launch({ ["shell"] = shell,["multishell"] = multishell,["require"] = require,["package"] = package,},"rom/programs/shell.lua")end)
 local lua = button.create("lua")
 lua.setPos(7,1)
 lua.onClick(function () multishell.launch({ ["shell"] = shell,["multishell"] = multishell, ["require"] = require, ["package"] = package, },"rom/programs/lua.lua")end)
@@ -21,8 +21,8 @@ menu.onClick(
     local reboot = button.create("reboot")
     shutdown.setPos(12,2)
     reboot.setPos(12,3)
-    shutdown.onClick(function () multishell.launch({ ["shell"] = shell,["multishell"] = multishell, ["require"] = require, },"gameplayOS/installation/usersENV/shutdown.lua") end)
-    reboot.onClick(function() multishell.launch({ ["shell"] = shell,["multishell"] = multishell, ["require"] = require, },"gameplayOS/installation/usersENV/reboot.lua")end)
+    shutdown.onClick(function () multishell.launch({ ["shell"] = shell,["multishell"] = multishell, },"gameplayOS/installation/usersENV/shutdown.lua") end)
+    reboot.onClick(function() multishell.launch({ ["shell"] = shell,["multishell"] = multishell, },"gameplayOS/installation/usersENV/reboot.lua")end)
     button.await(shutdown,reboot)
     end
 )
@@ -33,7 +33,6 @@ fileExplorer.onClick(function() multishell.launch({ ["shell"] = shell,["multishe
 while not kernel.shuttingdown() do
 screen.clear(1,1)
 button.await(shellB,lua,fileExplorer,menu)
-
 end
 
 
